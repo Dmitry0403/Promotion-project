@@ -1,0 +1,24 @@
+.navigator{
+    display: inline-block;
+    position: fixed;
+    bottom: 150px;
+    right: 30px;
+    z-index: 3;
+}
+@keyframes jumping{
+    0% {
+        top: 0%;
+    }
+    100% {
+        transform:translateY(-10px);
+    }
+    
+}
+
+.navigator:hover img{
+    animation-name: jumping;
+    animation-duration: 0.3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}

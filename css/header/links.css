@@ -1,0 +1,36 @@
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.links a {
+    text-decoration: none;
+    color: rgba(166, 173, 177, 1);
+    display: flex;
+    align-items: center;
+}
+
+.links img{
+    padding: 10px;
+}
+
+.links__items{
+    margin-right: 40px;
+}
+
+.links__items:last-child {
+    margin: 0px;
+}
+
+.links__items span {
+    transition: transform 0.35s;
+}
+
+.links__items:hover{
+    transform: scale(0.8889);
+    filter: brightness(0);
+}
+

@@ -1,0 +1,28 @@
+footer{
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 29px;
+    padding-bottom: 29px;
+    margin-top: 8px;
+}
+
+.footer-wrapper{
+    display: flex;
+    justify-content:space-between;
+}
+
+.footer-links{
+    display: flex;
+
+}
+
+.footer-links img{
+    margin-right: 20px;
+}
+
+.footer-links:last-child{
+    margin-right: 0px;
+}

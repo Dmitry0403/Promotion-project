@@ -1,0 +1,16 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+body {
+    background-color: #E5E5E5;
+    font-family:'SF Pro Display', Arial, Helvetica, sans-serif;
+ 
+}
+.wrapper {
+    width: 1220px;
+    margin: 0 auto;
+    max-width: 100%;
+}
